@@ -8,4 +8,5 @@ class JSONResponse {
     @Expose
     var amiibo: List<Amiibo>? = null
 
+
 }
