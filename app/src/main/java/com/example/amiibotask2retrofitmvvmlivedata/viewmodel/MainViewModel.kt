@@ -17,15 +17,9 @@ class MainViewModel constructor(private val repository: MainRepository): ViewMod
         response.enqueue(object : Callback<JSONResponse?> {
             override fun onResponse(call: Call<JSONResponse?>, response: Response<JSONResponse?>) {
                 amiiboList.postValue(response.body())
-
             }
-
             override fun onFailure(call: Call<JSONResponse?>, t: Throwable) {
             }
-
         })
-
-
     }
-
 }

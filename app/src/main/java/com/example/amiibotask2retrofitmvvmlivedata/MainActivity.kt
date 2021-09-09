@@ -1,5 +1,4 @@
 package com.example.amiibotask2retrofitmvvmlivedata
-
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
